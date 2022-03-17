@@ -1,0 +1,2 @@
+export const LOCALSTORAGE_TOKEN = "nuber-token";
+export const STRIPE_PUBLIC_KEY = "pk_test_51KdBMyGDBAMzNbdM3MwvufRJ4vHRiWuwksPyZFxRQCTbSpv3fiEjAhhGw0UWNd0w8MbLAkbfcF6xjXpEyFWQll4X00LQ3zBwhV";
