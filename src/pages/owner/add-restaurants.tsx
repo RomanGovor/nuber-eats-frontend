@@ -144,14 +144,14 @@ export const AddRestaurant = () => {
                     placeholder="Category Name"
                     ref={register({ required: "Category Name is required." })}
                 />
-                <div>
-                    <input
-                        type="file"
-                        name="file"
-                        accept="image/*"
-                        ref={register({ required: true })}
-                    />
-                </div>
+                {/*<div>*/}
+                {/*    <input*/}
+                {/*        type="file"*/}
+                {/*        name="file"*/}
+                {/*        accept="image/*"*/}
+                {/*        ref={register({ required: true })}*/}
+                {/*    />*/}
+                {/*</div>*/}
                 <Button
                     loading={uploading}
                     canClick={formState.isValid}
